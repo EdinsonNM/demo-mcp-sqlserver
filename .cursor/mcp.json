@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "sqlserver": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@executeautomation/database-server",
+        "--sqlserver",
+        "--server",
+        "localhost",
+        "--database",
+        "DemoDB",
+        "--user",
+        "sa",
+        "--password",
+        "YourStrong!Passw0rd"
+      ],
+      "enabled": true,
+      "timeout": 10000
+    }
+  }
+}
